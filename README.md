@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Amna (ANK)</h1>
+<h1 align="center">Hi 👋, I'm Amna Nasir</h1>
 <h3 align="center">🚀 AI • Web3 • Full-Stack Developer</h3>
 
 <p align="center">
