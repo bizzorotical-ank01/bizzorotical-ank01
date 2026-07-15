@@ -1,34 +1,31 @@
 <h1 align="center">Hi, I'm Amna Nasir</h1>
-<h3 align="center"> AI • Web3 • Full-Stack Developer</h3>
+<h3 align="center">Web3 Strategy & Growth Advisor · AI • Blockchain • Full-Stack</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=8B5CF6&center=true&vCenter=true&lines=AI+%2B+Web3+Builder;Smart+Contract+Security;Full-Stack+Developer;Always+Learning+" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=8B5CF6&center=true&vCenter=true&lines=Web3+Growth+%26+Tokenomics+Strategy;Smart+Contract+Security+Advisor;Founder+%40+GenZexa;AI+%2B+Web3+Builder" />
 </p>
 
 ---
 
 ## 💫 About Me
-
-- Building at the intersection of **AI + Blockchain**
-- Currently developing a **Web3 Security Scanner (GitHub threat detection tool)**
-- Learning **Neural Networks, Smart Contract Security & Advanced dApps**
-- Strong focus on **real-world, production-level projects**
-- Open to **AI, Web3 & Security collaborations**
+- I help web3 founders evaluate technical risk and build growth strategy to scale with confidence
+- Founder of **GenZexa** revenue growth systems 
+- Hands-on background in **smart contract security, AI, and full-stack engineering** the technical depth behind the strategy
+- Open to **advisory, consulting, and technical collaborations**
 
 ---
 
-## What I’m Building
-
-🔹 **Web3 Assignment Guardian**  
+## What I've Built
+🔹 **Web3 Assignment Guardian**
 → Detects malicious GitHub repos (wallet drainers, RCE, fake recruiter scams)
 
-🔹 **AI + Web3 dApp**  
+🔹 **AI + Web3 dApp**
 → Smart contracts + machine learning integration
 
-🔹 **Ecommerce Growth System**  
+🔹 **Ecommerce Growth System**
 → Full-stack analytics + automation system
 
-🔹 **Computer Vision App**  
+🔹 **Computer Vision App**
 → Built using OpenCV + PyTorch
 
 ---
@@ -55,27 +52,26 @@
 ---
 
 ## Special Focus
-
-- Smart Contract Security & Vulnerability Analysis  
-- Malicious Code Detection (Web3 scams, wallet drainers)  
-- Fake Recruiter / Assignment Attack Prevention  
-- Static Code Analysis (AST + Pattern-based scanning)
+- Web3 growth strategy & tokenomics design
+- Smart contract security & vulnerability analysis
+- Malicious code detection (Web3 scams, wallet drainers)
+- Fake recruiter / assignment attack prevention
+- Static code analysis (AST + pattern-based scanning)
 
 ---
 
 ## Featured Project
-
 ### Web3 Assignment Guardian
 A security scanner that analyzes GitHub repositories before execution.
 
 **Detects:**
-- Wallet drainers & private key leaks  
-- Reverse shells & system access  
-- Camera / mic hijacking  
-- Malicious dependencies & scripts  
+- Wallet drainers & private key leaks
+- Reverse shells & system access
+- Camera / mic hijacking
+- Malicious dependencies & scripts
 
 > Built with: React, Node.js, Static Analysis Engine
 
 ---
-<i>"Building secure Web3 systems with AI-driven intelligence"</i>
-</p>
+
+<p align="center"><i>"Strong systems reduce risk. Clear structure improves performance."</i></p>
