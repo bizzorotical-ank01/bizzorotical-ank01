@@ -10,22 +10,22 @@
 ## About Me
 
 - I help web3 founders get the **tech, tokenomics, and launch** right before they scale
-- Hands-on background in **smart contract security and DeFi engineering** — I can check whether the foundation actually holds, then build the growth strategy to match
+- Hands-on background in **smart contract security and DeFi engineering** I can check whether the foundation actually holds, then build the growth strategy to match
 - Founder of **GenZexa**, a revenue growth agency for eCommerce & SaaS brands
 - Open to **advisory, consulting, and technical collaborations**
 
 ---
 
-## Featured Work — Deployed & Verified on Sepolia
+## Featured Work Deployed & Verified on Sepolia
 
-**ERC-4337 Smart Wallet** — [Code](https://github.com/bizzorotical-ank01/erc4337-smart-wallet) · [Live on-chain](https://sepolia.etherscan.io/address/0xDB05494de97dFbADa6cb497a3204DE81Df9A65b7)
+**ERC-4337 Smart Wallet** [Code](https://github.com/bizzorotical-ank01/erc4337-smart-wallet) · [Live on-chain](https://sepolia.etherscan.io/address/0xDB05494de97dFbADa6cb497a3204DE81Df9A65b7)
 > A smart wallet that survives a leaked key: signature auth, daily spending limits, and 2-of-3 guardian social recovery. Deployed and verified, with real on-chain transactions.
 
-**Staking Vault Protocol** — [Code](https://github.com/bizzorotical-ank01/staking-vault-protocol) · [Live on-chain](https://sepolia.etherscan.io/address/0xF801b40Fea109749aCf2DaA45B95331C7b8E9148)
+**Staking Vault Protocol** [Code](https://github.com/bizzorotical-ank01/staking-vault-protocol) · [Live on-chain](https://sepolia.etherscan.io/address/0xF801b40Fea109749aCf2DaA45B95331C7b8E9148)
 > An ERC-4626 DeFi vault with reward distribution. Invariant-tested across 128,000 random operations with zero failures. Three contracts, all verified on-chain.
 
-**Smart Contract Vulnerability Lab** — [Code](https://github.com/bizzorotical-ank01/smart-contract-vulnerability-lab)
-> Practical Web3 security lab simulating real DeFi exploits — reentrancy, access control gaps, tx.origin — and the fixes that prevent them.
+**Smart Contract Vulnerability Lab** [Code](https://github.com/bizzorotical-ank01/smart-contract-vulnerability-lab)
+> Practical Web3 security lab simulating real DeFi exploits reentrancy, access control gaps, tx.origin and the fixes that prevent them.
 
 ---
 
