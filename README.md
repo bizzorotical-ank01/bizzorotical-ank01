@@ -11,7 +11,6 @@
 
 - I help web3 founders get the **tech, tokenomics, and launch** right before they scale
 - Hands-on background in **smart contract security and DeFi engineering** I can check whether the foundation actually holds, then build the growth strategy to match
-- Founder of **GenZexa**, a revenue growth agency for eCommerce & SaaS brands
 - Open to **advisory, consulting, and technical collaborations**
 
 ---
