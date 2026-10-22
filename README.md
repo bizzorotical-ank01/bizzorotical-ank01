@@ -1,66 +1,114 @@
-<h1 align="center">Hi, I'm Amna Nasir</h1>
-<h3 align="center">I audit smart contracts and build growth systems</h3>
+# Amna Nasir
+
+### Smart Contract Security Engineer · Solidity · DeFi Protocol Engineering
+
+I build, test, and analyze smart contracts with a focus on protocol behavior, security assumptions, and edge cases.
+
+My work combines hands-on Solidity development, Foundry-based testing, vulnerability analysis, and practical DeFi engineering. I document implementations, testing evidence, and known limitations so technical decisions can be evaluated—not just advertised.
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=00FFE7&center=true&vCenter=true&lines=Smart+Contract+Security+%26+DeFi;Web3+Growth+%26+Tokenomics+Strategy;Founder+%40+GenZexa;Deployed+%26+Verified+On-Chain" />
+  <a href="https://www.linkedin.com/in/amna-nasir-web3">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://github.com/bizzorotical-ank01">
+    <img src="https://img.shields.io/badge/GitHub-Projects-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub projects" />
+  </a>
+  <a href="https://amna-nasir.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Explore-14B8A6?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" />
+  </a>
 </p>
 
 ---
 
-## About Me
+## `01` — Selected Engineering Work
 
-- I help web3 founders get the **tech, tokenomics, and launch** right before they scale
-- Hands-on background in **smart contract security and DeFi engineering** I can check whether the foundation actually holds, then build the growth strategy to match
-- Open to **advisory, consulting, and technical collaborations**
+Projects demonstrating Solidity implementation, security testing, and protocol-level thinking.
 
----
+### 01. ERC-4626 Staking Vault Protocol
 
-## Featured Work Deployed & Verified on Sepolia
+**DeFi · Vault Accounting · Invariant Testing**
 
-**ERC-4337 Smart Wallet** [Code](https://github.com/bizzorotical-ank01/erc4337-smart-wallet) · [Live on-chain](https://sepolia.etherscan.io/address/0xDB05494de97dFbADa6cb497a3204DE81Df9A65b7)
-> A smart wallet that survives a leaked key: signature auth, daily spending limits, and 2-of-3 guardian social recovery. Deployed and verified, with real on-chain transactions.
+An ERC-4626 vault project exploring tokenized deposits, withdrawals, reward distribution, and accounting invariants.
 
-**Staking Vault Protocol** [Code](https://github.com/bizzorotical-ank01/staking-vault-protocol) · [Live on-chain](https://sepolia.etherscan.io/address/0xF801b40Fea109749aCf2DaA45B95331C7b8E9148)
-> An ERC-4626 DeFi vault with reward distribution. Invariant-tested across 128,000 random operations with zero failures. Three contracts, all verified on-chain.
+- Built with Solidity, Foundry, and OpenZeppelin components.
+- Includes invariant testing across sequences of protocol operations.
+- Documented test result: **256 runs · 128,000 calls · 0 reverts**.
+- Deployed and verified on Sepolia.
 
-**Smart Contract Vulnerability Lab** [Code](https://github.com/bizzorotical-ank01/smart-contract-vulnerability-lab)
-> Practical Web3 security lab simulating real DeFi exploits reentrancy, access control gaps, tx.origin and the fixes that prevent them.
+[**Source code →**](https://github.com/bizzorotical-ank01/staking-vault-protocol) · [**Sepolia deployment →**](https://sepolia.etherscan.io/address/0xF801b40Fea109749aCf2DaA45B95331C7b8E9148)
 
----
+*Scope note: This is a learning-grade project, not an independently audited or production-ready protocol. Test results apply to the tested properties and conditions.*
 
-## Tech Stack
+### 02. Account-Abstraction-Inspired Smart Wallet
 
-**Languages**
+**Wallet Security · Signature Validation · Recovery Controls**
 
-![Solidity](https://img.shields.io/badge/Solidity-1F2937?style=flat&logo=solidity)
-![Python](https://img.shields.io/badge/Python-1E3A8A?style=flat&logo=python)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=flat&logo=javascript)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B)
+A smart-wallet prototype exploring security controls for key compromise and account recovery.
 
-**Web3 & Security**
+- Signature-based authorization.
+- Daily spending limits.
+- Guardian-based social recovery design.
+- Deployed and verified on Sepolia.
 
-![Foundry](https://img.shields.io/badge/Foundry-2A2A2A?style=flat&logo=ethereum)
-![Hardhat](https://img.shields.io/badge/Hardhat-181A1F?style=flat&logo=ethereum)
-![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=flat&logo=openzeppelin)
-![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=flat&logo=ethereum)
+[**Source code →**](https://github.com/bizzorotical-ank01/erc4337-smart-wallet) · [**Sepolia deployment →**](https://sepolia.etherscan.io/address/0xDB05494de97dFbADa6cb497a3204DE81Df9A65b7)
 
-**Frameworks & Tools**
+*Scope note: This is an account-abstraction-inspired prototype, not a claim of complete ERC-4337 compatibility. Review the repository for implementation status and integration limitations.*
 
-![React](https://img.shields.io/badge/React-111827?style=flat&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js)
-![Node.js](https://img.shields.io/badge/Node-065F46?style=flat&logo=node.js)
-![Git](https://img.shields.io/badge/Git-F97316?style=flat&logo=git)
+### 03. Smart Contract Vulnerability Lab
 
----
+**Exploit Reproduction · Vulnerability Analysis · Mitigations**
 
-## Focus Areas
+A hands-on security lab for examining common smart contract failure patterns and demonstrating their mitigations.
 
-- Smart contract security & vulnerability analysis
-- DeFi protocol design (ERC-4626 vaults, staking, account abstraction)
-- Invariant & fuzz testing for on-chain accounting
-- Web3 growth strategy & tokenomics
-- Malicious code detection (wallet drainers, repo-based scams)
+- Reentrancy vulnerabilities.
+- Access-control weaknesses.
+- Unsafe `tx.origin` authentication.
+- Exploit scenarios paired with defensive patterns.
+
+[**Explore the lab →**](https://github.com/bizzorotical-ank01/smart-contract-vulnerability-lab)
 
 ---
 
-<p align="center"><i>Strong systems reduce risk. Clear structure drives results.</i></p>
+## `02` — Technical Focus
+
+| Area | Focus |
+|---|---|
+| Smart contract security | Vulnerability analysis, exploit reproduction, access control |
+| Solidity engineering | Contract architecture, state transitions, token integrations |
+| DeFi protocols | ERC-4626 vaults, staking, reward accounting |
+| Testing | Foundry unit tests, fuzz testing, invariant testing |
+| Wallet security | Signature validation, spending controls, recovery mechanisms |
+
+---
+
+## `03` — Tools & Technologies
+
+<p>
+  <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity" />
+  <img src="https://img.shields.io/badge/Foundry-363636?style=flat-square&logo=ethereum&logoColor=white" alt="Foundry" />
+  <img src="https://img.shields.io/badge/OpenZeppelin-4E5EE4?style=flat-square&logo=openzeppelin&logoColor=white" alt="OpenZeppelin" />
+  <img src="https://img.shields.io/badge/Hardhat-F7DF1E?style=flat-square&logo=ethereum&logoColor=black" alt="Hardhat" />
+  <img src="https://img.shields.io/badge/Ethers.js-2535A0?style=flat-square&logo=ethereum&logoColor=white" alt="Ethers.js" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+</p>
+
+---
+
+## `04` — Collaboration
+
+I’m interested in working with Web3 teams building Solidity-based protocols that need stronger testing, clearer security assumptions, and careful implementation review.
+
+Areas I can discuss:
+
+- Focused smart contract security reviews.
+- Vulnerability reproduction and analysis.
+- Foundry test and invariant-test development.
+- Remediation support and regression testing.
+
+Engagement scope depends on the codebase, protocol complexity, and testing requirements.
+
+**Building a Solidity or DeFi protocol?**
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/amna-nasir-web3) or explore my [portfolio](https://amna-nasir.vercel.app/).
