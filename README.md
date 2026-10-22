@@ -4,7 +4,7 @@
 
 I build, test, and analyze smart contracts with a focus on protocol behavior, security assumptions, and edge cases.
 
-My work combines hands-on Solidity development, Foundry-based testing, vulnerability analysis, and practical DeFi engineering. I document implementations, testing evidence, and known limitations so technical decisions can be evaluated—not just advertised.
+My work combines hands-on Solidity development, Foundry-based testing, vulnerability analysis, and practical DeFi engineering. I document implementations, testing evidence, and known limitations.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/amna-nasir-web3">
